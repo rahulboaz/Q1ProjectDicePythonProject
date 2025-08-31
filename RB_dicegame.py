@@ -24,11 +24,11 @@ bus = [
 
 def print_slow(text):
     """A function that prints one character at a time."""
-    for x in text:                    # Cycle through the text
-        print(x, end='', flush=True)  # Print character, no new line
-        sleep(0.02)                   # Delay between characters
-    print()                           # New line
-    sleep(0.3)                        # Delay after finishing the line
+    for x in text:                   
+        print(x, end='', flush=True)  
+        sleep(0.02)
+    print()
+    sleep(0.3) 
 
 # Bus position displayer
 def display_bus(position, road_length=100):
